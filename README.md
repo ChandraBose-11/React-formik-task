@@ -30,14 +30,6 @@ Create an admin dashboard for a library management system that allows users to m
   <li>You can also create the details of the Book and Author in create page</li>
 </ul>
 
-## MokAPI Link
-
-https://6646051751e227f23aad6ba3.mockapi.io/api/books
-
-## Deployment Link
-
-https://quiet-sunflower-9fddbe.netlify.app/
-
 
 
 
