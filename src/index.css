@@ -1,0 +1,12 @@
+.navbar-brand{
+    color:rgb(212,12,110) !important;
+}
+.card-header{
+    background-color: cadetblue;
+}
+.col{
+    height:auto !important;
+  }
+  body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
