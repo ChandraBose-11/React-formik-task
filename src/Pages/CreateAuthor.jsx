@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Formik, useFormik } from "formik";
+import { useFormik } from "formik";
 import React, {  useState } from "react";
 import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
@@ -46,7 +46,6 @@ const CreateAuthor = () => {
 <div className="card-header text-center fs-3">
 <h3><b><FaUserPlus/> Create Author Details</b></h3></div>
 <div className="card-body mx-4">
-<Formik>
  <form onSubmit={formik.handleSubmit}>
  <div class="mb-3">
 <label for="id" class="form-label">id</label>
@@ -89,7 +88,6 @@ const CreateAuthor = () => {
      </button>
 </div>
  </form>
- </Formik>
 </div>
 </div>
 </div>
